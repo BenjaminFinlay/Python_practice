@@ -1,9 +1,11 @@
+#
 # Goal is to explore list comprehensions in Python
+# Useful for creating more readable data as we associate a keyword with a less readable data type.
 
 # Chapter 2 : An Array of Sequences
 # Ex 2-2: List Comprehensions
 symbols = '$¢£¥€¤'
-# ord() function returnsthe corresponding Unicode code decimal
+# ord() function returns the corresponding Unicode code decimal
 codes = [ord(symbol) for symbol in symbols]
 print(codes)
 
@@ -23,3 +25,4 @@ city, year, pop, chg, area = ('Tokyo', 2003, 32_450, 0.66, 8014)
 traveler_ids = [('USA', '31195855'), ('BRA', 'CE342567'), ('ESP', 'XDA205856')]
 for passport in sorted(traveler_ids):
     print('%s/%s' % passport)
+
