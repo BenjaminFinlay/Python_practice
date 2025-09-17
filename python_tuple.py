@@ -1,4 +1,4 @@
-#
+# from the Book Expert python programming by Tarek Ziade
 # Goal is to explore list comprehensions in Python
 # Useful for creating more readable data as we associate a keyword with a less readable data type.
 
@@ -25,4 +25,5 @@ city, year, pop, chg, area = ('Tokyo', 2003, 32_450, 0.66, 8014)
 traveler_ids = [('USA', '31195855'), ('BRA', 'CE342567'), ('ESP', 'XDA205856')]
 for passport in sorted(traveler_ids):
     print('%s/%s' % passport)
+
 
