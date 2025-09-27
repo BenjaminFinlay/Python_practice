@@ -29,9 +29,8 @@ Matplotlib: Creating various plot types and custom visualizations
 Scikit-learn: Machine learning algorithms and model evaluation
 
 # 🚀 Projects & Goals
-Building data analysis pipelines with real-world datasets
 
-Implementing machine learning models for classification and regression
+Implementing API keys into projects
 
 Creating interactive data visualizations
 
